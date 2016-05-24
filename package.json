@@ -1,22 +1,40 @@
 {
-    "name": "node-kestrel"
-  , "version": "0.0.4"
-  , "description": "Kestrel client module for NodeJS"
-  , "homepage": "https://github.com/brettlangdon/node-kestrel"
-  , "keywords": ["kestrel", "client", "messaging", "queue"]
-  , "author": "brett_langdon <brett@blangdon.com> (http://brett.is)"
-  , "contributors": [
-      { "name": "brett_langdon", "email": "brett@blangdon.com" },
-      { "name": "pablo_casado", "email": "p.casado.arias@gmail.com" },
-      { "name": "Matthias Goetzke", "email": "m.goetzke@curasystems.com", "url": "https://twitter.com/mgoetzke" }
-    ]
-  , "repository":{
-        "type": "git"
-      , "url": "github.com/brettlangdon/node-kestrel.git"
+  "name": "node-kestrel",
+  "version": "0.0.4",
+  "description": "Kestrel client module for NodeJS",
+  "homepage": "https://github.com/brettlangdon/node-kestrel",
+  "keywords": [
+    "kestrel",
+    "client",
+    "messaging",
+    "queue"
+  ],
+  "author": "brett_langdon <brett@blangdon.com> (http://brett.is)",
+  "contributors": [
+    {
+      "name": "brett_langdon",
+      "email": "brett@blangdon.com"
+    },
+    {
+      "name": "pablo_casado",
+      "email": "p.casado.arias@gmail.com"
+    },
+    {
+      "name": "Matthias Goetzke",
+      "email": "m.goetzke@curasystems.com",
+      "url": "https://twitter.com/mgoetzke"
     }
-  , "dependencies": {
-      "eventemitter2": ">=0.4.9"
-    }
-  , "main": "./lib/index.js"
-  , "engines": { "node": ">= 0.6.0" }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "github.com/brettlangdon/node-kestrel.git"
+  },
+  "dependencies": {
+    "eventemitter2": ">=0.4.9",
+    "net-socket-reconnect": "0.0.9"
+  },
+  "main": "./lib/index.js",
+  "engines": {
+    "node": ">= 0.6.0"
+  }
 }
